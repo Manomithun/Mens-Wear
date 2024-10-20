@@ -111,12 +111,10 @@ body{
 }
 .nextsept button{
     padding: 20px;
-    position: absolute;
-    left: 18%;
-    top: 50%;
     background-color: #1D232c;
     color: white;
     border-radius: 10px;
+    
 } 
 .news{
     display: flex;
@@ -255,5 +253,13 @@ body{
     .service2{
       flex-direction: column;
     }
+    .nextsept button{
+        padding: 20px;
+        background-color: #1D232c;
+        color: white;
+        border-radius: 10px;
+        gap: 10px;
+       margin-bottom:50px;
+    } 
 
 }
