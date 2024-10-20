@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "poppins",sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow:rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
+}
+.navlink{
+    display: flex;
+    column-gap: 20px;
+}
+.navlinks a{
+    text-decoration: none;
+    color: #1D232c;
+
+}
+.navlinks a:hover{
+    text-decoration: underline;
+}
+.navbar-menu{
+    display: none;
+}
+@media screen and (max-width:600px) {
+
+    .navbar-menu{
+    display:block;
+}
+.navlinks a{
+    display: none;
+}
+}
+.navlink1{
+    width: 50%;
+    height: 100%;
+    background-color: #1D232c;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    padding: 20px;
+   
+    transition: 2s;
+   
+}
+.navlinks1 {
+    margin-bottom: 30px;
+   
+}
+.navlinks1 a{
+    text-decoration: none;
+    color: white;
+}
+.navlinks1 a:hover{
+    text-decoration:underline;
+}
+.header{
+    display: flex;
+    padding: 50px;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.headbtn{
+    background-color: #1D232c;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* service */
+.service{
+   
+    padding: 10px;
+}
+.service1{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+.service2{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+.service2 div{
+    background-color: #f2f4f7;
+    margin: 5px;
+    border-radius: 10px;
+
+}
+.nextsec{
+    display: flex;
+  justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.nextsept{
+    position: relative;
+    flex-basis:20%;
+   
+    
+}
+.nextsept button{
+    padding: 20px;
+    position: absolute;
+    left: 18%;
+    top: 50%;
+    background-color: #1D232c;
+    color: white;
+    border-radius: 10px;
+} 
+.news{
+    display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.news-In input{
+    padding: 20px;
+    width: 80vw;
+    height:10px;
+    margin-top: 5px;
+    border: solid black;
+}
+.btn2 button{
+    margin-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    background-color: #1D232c;
+    color: white;
+
+}
+.footer{
+    background-color: #1D232c;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+
+}
+/*collection*/
+.product-section{
+    margin: 30px;
+  
+}
+.product-search{
+    width: 80%;
+    display: flex;
+    border: solid black 2px;
+    padding: 10px;
+   border-radius: 20px;
+   justify-content: space-between;
+   text-align: center;
+   margin: auto;
+
+
+}
+.product-search input{
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    padding-left: 10px;
+}
+.product-search input{
+   outline: none;
+}
+.collectionnext{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    justify-content: space-between;
+
+}
+.collectionnext p{
+    text-align: center;
+
+}
+/*contactus*/
+.contactus{
+     
+    background-color: #1D232c;
+    color: white;
+    padding: 10px;
+   margin: auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
+    width: 60%;
+    
+    
+}
+.contactus div{
+   margin:30px;
+}
+.contactus input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+     font-size: large;
+    border-radius: 5px;
+ }
+.contactus h2{
+ color:gray;
+ }
+ .contactus textarea{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+    font-size: large;
+    border-radius: 5px;
+    
+ }
+ .btn3 button{
+    margin-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #367ce5;
+    color: white;
+
+}
+
+@media screen and (max-width:600px) {
+    .navbar-menu{
+        display:block;
+    }
+    .headimg{
+        display: none;
+    }
+    .headimg1{
+        display: block; /* Ensure images are displayed */
+        width: 100%;    /* Make images responsive by setting width to 100% */
+        height: auto; 
+        margin-left: 20px;
+    }
+    .collectionnext p{
+        margin-bottom: 20px;
+    }
+    .service1{
+        display: none;
+    }
+    .service2{
+      flex-direction: column;
+    }
+
+}
