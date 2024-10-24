@@ -14,10 +14,12 @@ body{
 .navlink{
     display: flex;
     column-gap: 20px;
+    
 }
 .navlinks a{
     text-decoration: none;
     color: #1D232c;
+    
 
 }
 .navlinks a:hover{
@@ -104,17 +106,30 @@ body{
     gap: 10px;
 }
 .nextsept{
-    position: relative;
+  
     flex-basis:20%;
    
     
 }
+#heart{
+    position: relative;
+    left:40%;
+    font-size: large;
+     cursor: pointer;
+    
+}
+.red {
+    color: red; 
+}
 .nextsept button{
     padding: 20px;
+    
+    left: 18%;
+    top: 50%;
     background-color: #1D232c;
     color: white;
     border-radius: 10px;
-    
+     margin-bottom: 30px;
 } 
 .news{
     display: flex;
@@ -172,14 +187,8 @@ body{
 .product-search input{
    outline: none;
 }
-.collectionnext{
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 20%;
-    justify-content: space-between;
 
-}
-.collectionnext p{
+.nextsept p{
     text-align: center;
 
 }
@@ -236,30 +245,28 @@ body{
         display:block;
     }
     .headimg{
-        display: none;
+        margin-left: 30px;
+        margin-bottom: 10px;
+        display: block;
     }
-    .headimg1{
-        display: block; /* Ensure images are displayed */
-        width: 100%;    /* Make images responsive by setting width to 100% */
-        height: auto; 
-        margin-left: 20px;
-    }
-    .collectionnext p{
-        margin-bottom: 20px;
-    }
+   
+.headim{
+    display: none;
+}
     .service1{
         display: none;
     }
     .service2{
       flex-direction: column;
     }
-    .nextsept button{
-        padding: 20px;
-        background-color: #1D232c;
-        color: white;
-        border-radius: 10px;
-        gap: 10px;
-       margin-bottom:50px;
-    } 
-
+ .nextsec{
+    flex-direction: column;
+ }
+ .nextsept button {
+    margin-left:30px;
+ }
+ .nextsept p{
+    margin-left: 50px;
+ }
+ 
 }
