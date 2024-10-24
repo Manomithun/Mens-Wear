@@ -1,4 +1,4 @@
-var productcontainer=document.querySelector(".collectionnext");
+var productcontainer=document.querySelector(".nextsec");
 var search=document.getElementById("search");
 var porductlist=productcontainer.querySelectorAll("div")
 search.addEventListener("keyup",function(){
